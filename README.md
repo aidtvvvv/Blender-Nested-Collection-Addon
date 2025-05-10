@@ -16,6 +16,22 @@
 
 Идеально подходит, когда модель состоит из множества мелких частей и хочется держать порядок в Outliner так же, как в Unity/UE.
 
+
+## Без аддона
+
+<img width="530" alt="Снимок экрана 2025-05-10 в 15 33 08" src="https://github.com/user-attachments/assets/71679ce3-90c8-468c-8311-2ce0ac501904" />
+<img width="452" alt="Снимок экрана 2025-05-10 в 15 33 26" src="https://github.com/user-attachments/assets/1c6afc7c-b67f-4cc8-9507-ad02b1b30d23" />
+
+
+## С аддоном
+
+<img width="662" alt="Снимок экрана 2025-05-10 в 15 34 30" src="https://github.com/user-attachments/assets/a80e07e7-82c8-4b34-9a22-a0a76f5df4c5" />
+<img width="345" alt="Снимок экрана 2025-05-10 в 15 34 41" src="https://github.com/user-attachments/assets/299875d2-fe49-42ee-ab5f-396b7092ca27" />
+
+### Если привыкли к иерархии в Unity, вам будет легко и удобно работать с этим аддоном :3
+
+<img width="335" alt="image" src="https://github.com/user-attachments/assets/a8c6df9f-4979-4eab-91d2-306f74074577" />
+
 ---
 
 ## Возможности
